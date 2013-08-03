@@ -8,6 +8,7 @@ public class helloworld {
         System.out.println("hi");
         float v=12;
         double v1=21.3232;
+        double v2;
         String s="hg";
         System.out.println(v1+s);
         boolean a=true;
