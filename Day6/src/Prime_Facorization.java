@@ -13,32 +13,38 @@ public class Prime_Facorization {
         int i;
         int j;
         int k = 1;//重复判定
-        i = scanner.nextInt();
-        System.out.print(i + "=");
-        while (k == 1) {
-        while (true){
-                        if (i == 1) {
-                            System.out.println("1 is a prime number！");
-                            break;
-                        }
-                        for (j = 2; j < i+1; j++) {
-                            if (i%j == 0)
-                            {
-                                i = i/j;
-                                if (i == 1) {
-                                    System.out.print(j);
-                                    break;
-                                }
-                                else {
-                                    System.out.print(j+"*");
-                                    break;
-                                }
 
+        while (k == 1 ){
+
+            System.out.print("input the number:");
+            i = scanner.nextInt();
+            System.out.print(i + "=");
+            if ((i == 1))
+            {
+                System.out.println(i+" is a prime number！");
+            }
+            while (true)
+            {
+
+                        for (j = 2; j < i+1; j++)
+                            {
+                                if (i%j == 0)
+                                {
+                                    i = i/j;
+                                    if (i == 1)
+                                    {
+                                        System.out.println(j);
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        System.out.print(j+"*");
+                                        break;
+                                    }
+
+                                }
                             }
-                    }
-            System.out.println("重新判定请输入1，退出请输入其他");
-            k = scanner.nextInt();
-        }
+            }
         }
     }
 }
