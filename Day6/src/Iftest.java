@@ -1,11 +1,8 @@
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_INPeer;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 13-8-4.
- */
+///**
+// * Created by Administrator on 13-8-4.
+// */
 //import java.io.*;
 
 public class Iftest {
